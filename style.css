@@ -1,10 +1,14 @@
+body,
+html {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
 /* NAVBAR */
 .navbar {
   width: 100%;
@@ -15,7 +19,6 @@
   z-index: 1000;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
-
 .nav-container {
   max-width: 1600px;
   margin: 0 auto;
@@ -24,37 +27,31 @@
   grid-template-columns: auto 1fr auto;
   align-items: center;
 }
-
 .nav-left {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-
 .nav-center {
   display: flex;
   justify-content: center;
 }
-
 .nav-links {
   display: flex;
   gap: 40px;
   list-style: none;
 }
-
 .nav-links a {
   text-decoration: none;
   font-size: 18px;
   color: #222;
   font-weight: 500;
 }
-
 .nav-right {
   display: flex;
   gap: 25px;
   align-items: center;
 }
-
 .login-btn {
   background: none;
   border: none;
@@ -62,7 +59,6 @@
   cursor: pointer;
   font-size: 18px;
 }
-
 .signup-btn {
   background: #de760d;
   color: #fff;
@@ -73,23 +69,19 @@
   cursor: pointer;
   font-size: 18px;
 }
-
 .section {
   width: 100vw;
   height: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding: 0 20px; */
   position: relative;
 }
-
 #home {
   height: 100vh;
   padding-top: 150px;
   background: #d9d7d6ff;
 }
-
 .home-left {
   padding-left: 8rem;
   padding-bottom: 10rem;
@@ -97,16 +89,13 @@
   font-size: 2rem;
   line-height: 1.1;
 }
-
 .home-left span {
   color: #d36a08;
 }
-
 .home-left p {
   font-size: 20px;
   line-height: 1.7;
 }
-
 .home-left button {
   margin-top: 1rem;
   background: white;
@@ -117,19 +106,16 @@
   border-radius: 8px;
   cursor: pointer;
 }
-
 .home-right {
   padding-bottom: 20rem;
   padding-right: 5rem;
 }
-
 .hero-image-container {
   position: relative;
   padding-right: 20rem;
   width: 620px;
   height: 600px;
 }
-
 .hero-circle {
   position: absolute;
   bottom: 0;
@@ -142,7 +128,6 @@
   clip-path: ellipse(80% 55% at 50% 85%);
   z-index: 1;
 }
-
 .hero-img {
   position: absolute;
   bottom: 0;
@@ -152,7 +137,6 @@
   width: 450px;
   z-index: 2;
 }
-
 .tag {
   position: absolute;
   background: white;
@@ -164,28 +148,23 @@
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.12);
   z-index: 3;
 }
-
 .tag-icon {
   width: 30px;
 }
-
 .tag1 {
   top: 15rem;
   left: 1rem;
 }
-
 .tag2 {
   top: 200px;
   right: -50px;
   margin-top: 5rem;
 }
-
 .tag3 {
   bottom: 50px;
   left: 30px;
   margin-bottom: 8rem;
 }
-
 #search-section {
   position: relative;
   top: -150px;
@@ -195,7 +174,6 @@
   justify-content: center;
   bottom: 25rem;
 }
-
 .search-box {
   position: relative;
   background: #ffffff;
@@ -209,24 +187,20 @@
   border-radius: 18px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
 }
-
 .search-item h4 {
   font-size: 18px;
   font-weight: 600;
 }
-
 .arrow {
   color: #ff7a28;
   font-size: 16px;
   margin-left: 5px;
 }
-
 .search-item p {
   color: #777;
   font-size: 14px;
   margin-top: 6px;
 }
-
 .search-btn {
   background: #ff7a28;
   color: #fff;
@@ -238,14 +212,12 @@
   cursor: pointer;
   box-shadow: 0px 6px 20px rgba(255, 122, 40, 0.3);
 }
-
 #about {
   background: #e1ddddff;
   padding-bottom: 35rem;
   display: block !important;
   padding: 2rem;
 }
-
 .about-text {
   display: flex;
   flex-direction: column;
@@ -254,22 +226,18 @@
   text-align: center;
   padding-top: 5rem;
 }
-
 #about h1 {
   font-family: "Playfair Display", serif;
   font-size: 4rem;
 }
-
 #about h1 span {
   color: orange;
   font-family: "Playfair Display", serif;
 }
-
 #about p {
   padding-top: 1rem;
   font-size: 20px;
 }
-
 .about-boxes {
   display: flex;
   justify-content: center;
@@ -285,7 +253,6 @@
   border-radius: 1rem;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
 }
-
 .about-content .content-1 {
   font-family: "Poppins", sans-serif;
   padding-top: 4rem;
@@ -293,7 +260,6 @@
 .about-content .content-1 .sign-up {
   font-size: 2rem !important;
 }
-
 #destination {
   background: #d6cdcdff;
   display: block;
@@ -305,22 +271,17 @@
   padding-bottom: 2rem;
   padding: 1rem;
 }
-
 #destination .des-text {
   font-family: "Playfair Display", serif;
   font-size: 2rem;
   padding-top: 2rem;
 }
-
 #destination .des-text h1 span {
   color: #ff4d01;
 }
-
 #destination p {
   font-size: 25px;
-  /* padding-top: 3rem; */
 }
-
 .card {
   width: 400px;
   height: 350px;
@@ -329,23 +290,19 @@
   overflow: hidden;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
 }
-
 .card-img {
   width: 100%;
   height: 60%;
   object-fit: cover;
 }
-
 .card-content {
   padding: 8px;
   padding-top: 2rem;
 }
-
 .title {
   margin: 5px 0 10px 0;
   font-size: 10px;
 }
-
 .info-row {
   display: flex;
   justify-content: space-between;
@@ -354,14 +311,12 @@
   font-size: 18px;
   font-weight: bold;
 }
-
 .rating {
   display: flex;
   align-items: center;
   gap: 4px;
   font-size: 18px;
 }
-
 .price {
   display: flex;
   justify-content: space-between;
@@ -422,7 +377,6 @@
 }
 #tour .tour-text p {
   font-size: 30px;
-  /* padding-top: 1rem; */
 }
 
 #tour .tour-boxes {
@@ -530,7 +484,6 @@
 }
 
 #another .another-container {
-  /* padding-top: 7rem; */
   font-size: 2rem;
   font-family: "Playfair Display", serif;
 }
@@ -595,7 +548,6 @@
   font-size: 2rem;
   color: white;
   border-radius: 2rem;
-  /* padding-top: 10rem; */
   margin-left: 18rem;
 }
 
@@ -666,7 +618,6 @@
   color: #fff;
 }
 
-/* Footer Columns */
 .footer-col {
   display: flex;
   flex-direction: column;
@@ -708,7 +659,576 @@
   color: #ff7a3d;
 }
 
-/* media queries */
+@media (max-width: 1400px) {
+  #home {
+    display: flex;
+    justify-content: space-between;
+  }
+  #home .home-left {
+    padding-left: 5rem;
+    padding-top: 5rem;
+  }
+  #home .home-left h1 {
+    font-size: 3rem;
+    width: 100vw;
+  }
+  #home .home-left p {
+    font-size: 20px;
+    width: 100vw;
+  }
+  .home-right {
+    padding-top: 25rem;
+    padding-right: 15rem;
+  }
+
+  .hero-image-container {
+    position: relative;
+    width: 300px;
+    height: 250px;
+  }
+
+  .hero-circle {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background: #ff7a28;
+    left: 4rem;
+    bottom: 2rem;
+    border-radius: 50%;
+    clip-path: ellipse(80% 55% at 50% 85%);
+    z-index: 1;
+  }
+
+  .hero-img {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5rem;
+    left: 85%;
+    transform: translateX(-50%);
+    width: 350px;
+    z-index: 2;
+  }
+
+  .tag {
+    position: absolute;
+    background: white;
+    padding: 10px;
+    border-radius: 18px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.12);
+    z-index: 3;
+  }
+
+  .tag-icon {
+    width: 10px;
+  }
+
+  .tag1 {
+    top: -2rem;
+    left: 4rem;
+  }
+
+  .tag2 {
+    top: -80px;
+    right: -150px;
+    margin-top: 5rem;
+  }
+
+  .tag3 {
+    bottom: 25px;
+    left: 40px;
+    margin-bottom: 8rem;
+  }
+  #search-section {
+    top: 2rem;
+    z-index: 10;
+  }
+  .search-box {
+    background: #ffffff;
+    padding: 10px 20px;
+    width: 100%;
+    gap: 20px;
+    border-radius: 18px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  }
+  .search-item h4 {
+    font-size: 15px;
+  }
+  .arrow {
+    color: #ff7a28;
+    font-size: 10px;
+    margin-left: 5px;
+  }
+  .search-item p {
+    color: #777;
+    font-size: 10px;
+    margin-top: 6px;
+  }
+  .search-btn {
+    background: #ff7a28;
+    color: #fff;
+    width: 20vw;
+    font-size: 12px;
+    cursor: pointer;
+    box-shadow: 0px 6px 20px rgba(255, 122, 40, 0.3);
+  }
+
+  #about .heading {
+    font-size: 4rem;
+  }
+  #about p {
+    font-size: 20px;
+    text-align: center;
+  }
+  .about-content {
+    height: 20rem;
+  }
+  .about-content img {
+    width: 60px;
+    margin-top: 0rem;
+  }
+  .about-content .content-1 {
+    font-family: "Poppins", sans-serif;
+    padding-top: 0px;
+  }
+  #destination .des-text {
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+  }
+  #destination p {
+    font-size: 25px;
+  }
+  #tour .tour-text .tour-heading {
+    font-size: 4rem;
+  }
+  #tour .tour-text p {
+    font-size: 25px;
+  }
+  #blog .blog-left {
+    font-size: 2rem;
+  }
+  #blog .blog-left p {
+    font-size: 20px;
+  }
+  .testimonial-wrapper {
+    position: relative;
+    width: 450px;
+  }
+  #another .another-container h1 {
+    font-size: 3rem;
+  }
+  #another .another-container h1 {
+    font-size: 3rem;
+    font-family: "Playfair Display", serif;
+  }
+  #another .latest-card {
+    width: 400px;
+    height: 450px;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+  }
+  .latest-card-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+
+  #footer .footer-top {
+    width: 90%;
+    max-width: 100%;
+    padding: 1.5rem 1rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+  }
+  .footer-top h1 {
+    font-size: 3rem;
+  }
+
+  .footer-container {
+    flex-direction: row;
+    align-items: start;
+    gap: 1.5rem;
+    margin-top: 3rem;
+  }
+  .footer-col h3 {
+    font-size: 20px;
+  }
+  .footer-col a {
+    font-size: 14px;
+  }
+  .footer-bottom {
+    font-size: 14px;
+    padding: 1.5rem 0;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  #home {
+    display: flex;
+    justify-content: space-between;
+  }
+  #home .home-left {
+    padding-left: 5rem;
+    padding-top: 5rem;
+  }
+  #home .home-left h1 {
+    font-size: 3rem;
+    width: 100vw;
+  }
+  #home .home-left p {
+    font-size: 20px;
+    width: 100vw;
+  }
+  .home-right {
+    padding-top: 25rem;
+    padding-right: 15rem;
+  }
+
+  .hero-image-container {
+    position: relative;
+    width: 300px;
+    height: 250px;
+  }
+
+  .hero-circle {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background: #ff7a28;
+    left: 4rem;
+    bottom: 2rem;
+    border-radius: 50%;
+    clip-path: ellipse(80% 55% at 50% 85%);
+    z-index: 1;
+  }
+
+  .hero-img {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5rem;
+    left: 85%;
+    transform: translateX(-50%);
+    width: 350px;
+    z-index: 2;
+  }
+
+  .tag {
+    position: absolute;
+    background: white;
+    padding: 10px;
+    border-radius: 18px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.12);
+    z-index: 3;
+  }
+
+  .tag-icon {
+    width: 10px;
+  }
+
+  .tag1 {
+    top: -2rem;
+    left: 4rem;
+  }
+
+  .tag2 {
+    top: -80px;
+    right: -150px;
+    margin-top: 5rem;
+  }
+
+  .tag3 {
+    bottom: 25px;
+    left: 40px;
+    margin-bottom: 8rem;
+  }
+  #search-section {
+    top: 2rem;
+    z-index: 10;
+  }
+  .search-box {
+    background: #ffffff;
+    padding: 10px 20px;
+    width: 100%;
+    gap: 20px;
+    border-radius: 18px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  }
+  .search-item h4 {
+    font-size: 15px;
+  }
+  .arrow {
+    color: #ff7a28;
+    font-size: 10px;
+    margin-left: 5px;
+  }
+  .search-item p {
+    color: #777;
+    font-size: 10px;
+    margin-top: 6px;
+  }
+  .search-btn {
+    background: #ff7a28;
+    color: #fff;
+    width: 20vw;
+    font-size: 12px;
+    cursor: pointer;
+    box-shadow: 0px 6px 20px rgba(255, 122, 40, 0.3);
+  }
+
+  #about .heading {
+    font-size: 4rem;
+  }
+  #about p {
+    font-size: 20px;
+    text-align: center;
+  }
+  .about-content {
+    height: 20rem;
+  }
+  .about-content img {
+    width: 60px;
+    margin-top: 0rem;
+  }
+  .about-content .content-1 {
+    font-family: "Poppins", sans-serif;
+    padding-top: 0px;
+  }
+  #destination .des-text {
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+  }
+  #destination p {
+    font-size: 25px;
+  }
+  #tour .tour-text .tour-heading {
+    font-size: 4rem;
+  }
+  #tour .tour-text p {
+    font-size: 25px;
+  }
+  #blog .blog-left {
+    font-size: 2rem;
+  }
+  #blog .blog-left p {
+    font-size: 20px;
+  }
+  .testimonial-wrapper {
+    position: relative;
+    width: 450px;
+  }
+  #another .another-container h1 {
+    font-size: 3rem;
+  }
+  #another .another-container h1 {
+    font-size: 3rem;
+    font-family: "Playfair Display", serif;
+  }
+  #another .latest-card {
+    width: 400px;
+    height: 450px;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+  }
+  .latest-card-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+
+  #footer .footer-top {
+    width: 90%;
+    max-width: 100%;
+    padding: 1.5rem 1rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+  }
+  .footer-top h1 {
+    font-size: 3rem;
+  }
+
+  .footer-container {
+    flex-direction: row;
+    align-items: start;
+    gap: 1.5rem;
+    margin-top: 3rem;
+  }
+  .footer-col h3 {
+    font-size: 20px;
+  }
+  .footer-col a {
+    font-size: 14px;
+  }
+  .footer-bottom {
+    font-size: 14px;
+    padding: 1.5rem 0;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  #home .home-left {
+    padding-left: 2rem;
+  }
+  #home .home-left h1 {
+    font-size: 4rem;
+    width: 100vw;
+  }
+  #home .home-left p {
+    font-size: 20px;
+    width: 100vw;
+  }
+  .home-left button {
+    margin-left: 20rem;
+  }
+  .home-right {
+    padding-left: 15rem;
+  }
+  #search-section {
+    padding-top: 8rem;
+    z-index: 10;
+  }
+
+  #about .heading {
+    font-size: 3rem;
+  }
+  #about p {
+    font-size: 20px;
+  }
+  .about-boxes {
+    margin-left: 16rem;
+  }
+  #destination .des-text {
+    font-size: 1.5rem;
+  }
+  #tour .tour-text p {
+    font-size: 20px;
+  }
+  #blog .blog-left {
+    font-size: 2rem;
+  }
+  #blog .blog-left p {
+    font-size: 20px;
+  }
+  .testimonial-wrapper {
+    position: relative;
+    width: 600px;
+  }
+  #another .another-container h1 {
+    font-size: 3rem;
+  }
+  #another .another-container h1 {
+    font-size: 3rem;
+    font-family: "Playfair Display", serif;
+  }
+  #another .latest-card {
+    width: 400px;
+    height: 450px;
+    margin: 0 auto;
+  }
+  .latest-card-img {
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+  }
+
+  #footer .footer-top {
+    width: 90%;
+  }
+  .footer-top h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #home .home-left {
+    padding-left: 1rem;
+  }
+  #home .home-left h1 {
+    font-size: 4rem;
+    width: 100vw;
+  }
+  #home .home-left p {
+    font-size: 20px;
+    width: 100vw;
+  }
+  .home-left button {
+    margin-left: 15rem;
+  }
+  .home-right {
+    margin-left: 7rem;
+  }
+
+  #search-section {
+    margin-top: 6rem;
+  }
+  #about .heading {
+    font-size: 3rem;
+  }
+  #about p {
+    font-size: 18px;
+  }
+  .about-boxes {
+    margin-left: 8rem;
+  }
+  #another .another-container h1 {
+    font-size: 3rem;
+    font-family: "Playfair Display", serif;
+  }
+  #another .latest-card {
+    width: 400px;
+    height: 350px;
+    margin: 0 auto;
+  }
+  .latest-card-img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 576px) {
+  #home .home-left {
+    padding-left: 6rem;
+  }
+  #home .home-left h1 {
+    font-size: 40px;
+    padding-left: 0px;
+  }
+  #home .home-left p {
+    font-size: 15px;
+    width: 100vw;
+    padding-right: 12rem;
+  }
+
+  #about .heading {
+    font-size: 3rem;
+  }
+  #about p {
+    font-size: 18px;
+  }
+  .about-boxes {
+    padding-left: 4rem;
+  }
+  #another .latest-card {
+    width: 300px;
+    height: 350px;
+    margin-left: 6rem;
+  }
+  .latest-card-img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+  }
+}
+
 @media (max-width: 480px) {
   #home {
     display: block;
